@@ -1,5 +1,5 @@
 # VMouse.py
-# This is licensed under The 2LD OSL which can be found at https://github.com/2-LazyDevs/LICENSE/blob/main/LICENSE
+# This is licensed under The 2LD OSL
 
 import cv2
 import mediapipe as mp
@@ -8,9 +8,9 @@ import numpy as np
 import time
 
 print("VMouse - Virtual Mouse")
-print("Version 0.5 - Alpha - Work in progress")
+print("Version 0.6 - Alpha - Work in progress")
 print("If you encounter any bugs or problems, report at https://github.com/2-LazyDevs/VMouse")
-print("Licensed under The 2LD OSL - https://github.com/2-LazyDevs/LICENSE")
+print("Licensed under The 2LD OSL")
 print("Made by AR-DEV-1 of 2LazyDevs")
 print("Thanks to everyone who made this possible!")
 print("")
@@ -202,3 +202,4 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
